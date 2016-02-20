@@ -131,8 +131,8 @@ LOCK TABLES `wp_options` WRITE;
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`)
 VALUES
-	(1,'siteurl','http://localhost:8888','yes'),
-	(2,'home','http://localhost:8888','yes'),
+	(1,'siteurl','http://sanctuary2016.kellyhorigan.com','yes'),
+	(2,'home','http://sanctuary2016.kellyhorigan.com','yes'),
 	(3,'blogname','Sanctuary','yes'),
 	(4,'blogdescription','Eco-Retreat for Professional Artists','yes'),
 	(5,'users_can_register','0','yes'),
@@ -314,7 +314,7 @@ VALUES
 	(8,4,'_menu_item_target',''),
 	(9,4,'_menu_item_classes','a:1:{i:0;s:0:\"\";}'),
 	(10,4,'_menu_item_xfn',''),
-	(11,4,'_menu_item_url','http://localhost:8888/'),
+	(11,4,'_menu_item_url','http://sanctuary2016.kellyhorigan.com/'),
 	(13,5,'_menu_item_type','post_type'),
 	(14,5,'_menu_item_menu_item_parent','0'),
 	(15,5,'_menu_item_object_id','2'),
@@ -369,12 +369,12 @@ LOCK TABLES `wp_posts` WRITE;
 
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`)
 VALUES
-	(1,1,'2016-02-20 19:43:17','2016-02-20 19:43:17','Welcome to WordPress. This is your first post. Edit or delete it, then start writing!','Hello world!','','publish','open','open','','hello-world','','','2016-02-20 19:43:17','2016-02-20 19:43:17','',0,'http://localhost:8888/?p=1',0,'post','',0),
-	(2,1,'2016-02-20 19:43:17','2016-02-20 19:43:17','This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href=\"http://localhost:8888/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!','Sample Page','','publish','closed','open','','sample-page','','','2016-02-20 19:43:17','2016-02-20 19:43:17','',0,'http://localhost:8888/?page_id=2',0,'page','',0),
-	(3,1,'2016-02-20 19:43:38','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2016-02-20 19:43:38','0000-00-00 00:00:00','',0,'http://localhost:8888/?p=3',0,'post','',0),
-	(4,1,'2016-02-20 20:29:45','2016-02-20 20:29:45','','Home','','publish','closed','closed','','home','','','2016-02-20 20:29:55','2016-02-20 20:29:55','',0,'http://localhost:8888/?p=4',1,'nav_menu_item','',0),
-	(5,1,'2016-02-20 20:29:45','2016-02-20 20:29:45',' ','','','publish','closed','closed','','5','','','2016-02-20 20:29:55','2016-02-20 20:29:55','',0,'http://localhost:8888/?p=5',2,'nav_menu_item','',0),
-	(6,1,'2016-02-20 20:36:38','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2016-02-20 20:36:38','0000-00-00 00:00:00','',0,'http://localhost:8888/?p=6',0,'post','',0);
+	(1,1,'2016-02-20 19:43:17','2016-02-20 19:43:17','Welcome to WordPress. This is your first post. Edit or delete it, then start writing!','Hello world!','','publish','open','open','','hello-world','','','2016-02-20 19:43:17','2016-02-20 19:43:17','',0,'http://sanctuary2016.kellyhorigan.com/?p=1',0,'post','',0),
+	(2,1,'2016-02-20 19:43:17','2016-02-20 19:43:17','This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href=\"http://sanctuary2016.kellyhorigan.com/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!','Sample Page','','publish','closed','open','','sample-page','','','2016-02-20 19:43:17','2016-02-20 19:43:17','',0,'http://sanctuary2016.kellyhorigan.com/?page_id=2',0,'page','',0),
+	(3,1,'2016-02-20 19:43:38','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2016-02-20 19:43:38','0000-00-00 00:00:00','',0,'http://sanctuary2016.kellyhorigan.com/?p=3',0,'post','',0),
+	(4,1,'2016-02-20 20:29:45','2016-02-20 20:29:45','','Home','','publish','closed','closed','','home','','','2016-02-20 20:29:55','2016-02-20 20:29:55','',0,'http://sanctuary2016.kellyhorigan.com/?p=4',1,'nav_menu_item','',0),
+	(5,1,'2016-02-20 20:29:45','2016-02-20 20:29:45',' ','','','publish','closed','closed','','5','','','2016-02-20 20:29:55','2016-02-20 20:29:55','',0,'http://sanctuary2016.kellyhorigan.com/?p=5',2,'nav_menu_item','',0),
+	(6,1,'2016-02-20 20:36:38','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2016-02-20 20:36:38','0000-00-00 00:00:00','',0,'http://sanctuary2016.kellyhorigan.com/?p=6',0,'post','',0);
 
 /*!40000 ALTER TABLE `wp_posts` ENABLE KEYS */;
 UNLOCK TABLES;
